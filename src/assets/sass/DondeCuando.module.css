@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.dondeCuando {
+  background-color: #FFC8DD;
+  padding: 2em 1em;
+}
+.dondeCuando h3 {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2em;
+  text-align: center;
+}
+.dondeCuando .main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 2em 1em;
+  text-align: start;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(rgba(172, 206, 237, 0.3490196078) 1.6px, #ffffff 1.6px);
+  background-size: 35px 35px;
+}
+.dondeCuando .main .map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5568627451);
+  min-height: 300vh;
+  padding: 87em 1em 0 1em;
+}
+.dondeCuando .main .map .map__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  background-color: #FFFFFF;
+  padding: 1em;
+  border-radius: 8px;
+}
+.dondeCuando .main .map .map__card iframe {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.dondeCuando .main .map .map__card .map__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1em;
+}
+.dondeCuando .main .map .map__card .map__footer .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0;
+}
+.dondeCuando .main .map .map__card .map__footer .info span {
+  font-weight: 600;
+  margin: 0;
+}
+.dondeCuando .main .map .map__card .map__footer .info p {
+  font-weight: 300;
+}
+.dondeCuando .main .map .map__card .map__footer hr {
+  width: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.0666666667);
+}
+.dondeCuando .main .map .map__card .map__footer button {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 0.8em 2em;
+  border-radius: 4px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: transparent;
+  font-size: 0.9rem;
+}
+.dondeCuando .main .map .map__card .map__footer button:hover {
+  background-color: #FFC8DD;
+}
+.dondeCuando .main .title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.dondeCuando .main .lugar {
+  font-size: 1.4rem;
+  margin: 0;
+  font-family: "Pacifico", cursive;
+}
+.dondeCuando .main .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0;
+}
+.dondeCuando .main .info span {
+  font-weight: 600;
+  margin: 0;
+}
+.dondeCuando .main .info p {
+  font-weight: 300;
+}
+.dondeCuando .main .btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  text-align: center;
+}
+.dondeCuando .main .btns a {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.6196078431);
+  padding: 0.8em 0;
+  border-radius: 4px;
+  font-weight: 400;
+  background-color: #FFC8DD;
+}/*# sourceMappingURL=DondeCuando.module.css.map */

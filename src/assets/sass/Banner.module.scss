@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .img {
+    background-image: url(../imgs/banner-xv.webp);
+    background-size: cover;
+    background-position: calc(50% + 10px) 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 43px);
+  }
+
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.5em 0;
+
+    .text, .count {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+}

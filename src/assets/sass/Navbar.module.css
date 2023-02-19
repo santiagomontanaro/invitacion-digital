@@ -1,0 +1,29 @@
+.nav {
+  background-color: #FFF;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.nav .items ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.7em;
+}
+.nav .items ul a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #000;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+.nav .items ul a:hover {
+  color: #FFFFFF;
+  border-color: #FF8CB3;
+  background-color: #FF8CB3;
+}/*# sourceMappingURL=Navbar.module.css.map */

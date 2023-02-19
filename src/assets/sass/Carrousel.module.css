@@ -1,0 +1,27 @@
+.galeria h3 {
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 1.6rem;
+  margin: 1em 0 1.5em 0;
+  text-align: center;
+}
+.galeria .carrousel {
+  padding: 0 1em;
+  display: flex;
+  height: 600px;
+  margin-bottom: 1em;
+}
+.galeria .carrousel img {
+  width: 0;
+  flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(1) contrast(0.7);
+  transition: all 0.6s ease;
+}
+.galeria .carrousel img:hover {
+  cursor: pointer;
+  width: 200px;
+  filter: grayscale(0) contrast(1);
+}/*# sourceMappingURL=Carrousel.module.css.map */
