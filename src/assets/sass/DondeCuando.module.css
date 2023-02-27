@@ -29,7 +29,7 @@
 .dondeCuando .main .map {
   position: absolute;
   left: 0;
-  top: 0;
+  top: -150px;
   background-color: rgba(0, 0, 0, 0.5568627451);
   min-height: 300vh;
   padding: 87em 1em 0 1em;
@@ -123,4 +123,8 @@
   border-radius: 4px;
   font-weight: 400;
   background-color: #FFC8DD;
+}
+.dondeCuando .main .btns a:hover {
+  background-color: #acceed;
+  transition: all 0.2s ease;
 }/*# sourceMappingURL=DondeCuando.module.css.map */

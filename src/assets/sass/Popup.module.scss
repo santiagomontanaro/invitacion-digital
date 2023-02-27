@@ -1,5 +1,6 @@
 @import "../fonts/Poppins.scss";
 @import "../sass/colors";
+
 // mobile first (390px)
 .popup {
   display: flex;
@@ -18,6 +19,7 @@
     background-color: $white;
     border-radius: 6px;
     padding: 2em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 
     h1 {
       font-size: 1em;
@@ -54,6 +56,7 @@
           border: 1px solid $barbiePink;
         }
       }
+
       input[type=text] {
         padding: 0 10px;
       }
@@ -200,6 +203,60 @@
       .form__button {
         font-size: 1em;
         padding: 0.4em 0.3em;
+      }
+    }
+  }
+}
+
+//mobile width 375px
+@media screen and (min-width: 375px) {
+  .popup {
+    .popup__content {
+      h1 {
+        font-size: 1em;
+      }
+
+      h2 {
+        font-size: 0.8em;
+      }
+
+      .popup__form {
+        .form__input {
+          padding: 0.3em 0.2em;
+          font-size: 0.8em;
+        }
+      }
+
+      .form__button {
+        font-size: 0.9em;
+        padding: 0.3em 0.2em;
+      }
+    }
+  }
+}
+
+//mobile width 425px
+@media screen and (min-width: 425px) {
+  .popup {
+    .popup__content {
+      h1 {
+        font-size: 1.1em;
+      }
+
+      h2 {
+        font-size: 0.9em;
+      }
+
+      .popup__form {
+        .form__input {
+          padding: 0.3em 0.2em;
+          font-size: 0.9em;
+        }
+      }
+
+      .form__button {
+        font-size: 1em;
+        padding: 0.3em 0.2em;
       }
     }
   }

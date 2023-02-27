@@ -6,8 +6,9 @@
   justify-content: center;
   color: #FFFFFF;
   gap: 1em;
-  padding: 2em 2em;
-  filter: drop-shadow(0 0 0.7rem rgba(0, 0, 0, 0.3));
+  padding: 2em;
+  margin-top: 3em;
+  filter: drop-shadow(0 0 0.7rem rgba(0, 0, 0, 0.2));
   background-color: #acceed;
   opacity: 1;
   background-image: radial-gradient(#51a5f3 1.6px, #91bde7 1.6px);

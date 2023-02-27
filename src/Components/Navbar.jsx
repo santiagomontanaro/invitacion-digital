@@ -8,8 +8,9 @@ function Navbar() {
         <ul>
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#donde">Dónde</a></li>
+          <li><a href="#itinerario">Itinerario</a></li>
           <li><a href="#galeria">Galería</a></li>
-          <li><a href="#confirmar">Confirmar Asistencia</a></li>
+          <li><a href="#confirmar">Asistencia</a></li>
         </ul>
       </div>
     </div>

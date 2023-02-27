@@ -47,7 +47,7 @@ function DondeCuando() {
         </div>
         <div className={ss.btns}>
           <a href='#popup' id='verMapa' onClick={showMap}>Ver mapa</a>
-          <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmRoaTByOTAydTgxbGYxMDVkZWs1dGlzdDAgNTllZmYwMmU4NmM3M2NiNjA1NmQwMTVjM2Y3N2E3Y2M3ZTEyZWJmZTJmYzQ3NTU5NjNlMDRlZGQxNDk1NGY5ZkBn&amp;tmsrc=59eff02e86c73cb6056d015c3f77a7cc7e12ebfe2fc4755963e04edd14954f9f%40group.calendar.google.com" rel="noopener noreferrer">Añadir a mi calendario</a>
+          <a id='itinerario' target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MmRoaTByOTAydTgxbGYxMDVkZWs1dGlzdDAgNTllZmYwMmU4NmM3M2NiNjA1NmQwMTVjM2Y3N2E3Y2M3ZTEyZWJmZTJmYzQ3NTU5NjNlMDRlZGQxNDk1NGY5ZkBn&amp;tmsrc=59eff02e86c73cb6056d015c3f77a7cc7e12ebfe2fc4755963e04edd14954f9f%40group.calendar.google.com" rel="noopener noreferrer">Añadir a mi calendario</a>
         </div>
       </div>
     </div>

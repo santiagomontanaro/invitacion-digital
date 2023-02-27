@@ -20,6 +20,7 @@ body {
   background-color: #FFFFFF;
   border-radius: 6px;
   padding: 2em;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 .popup .popup__content h1 {
   font-size: 1em;
@@ -163,5 +164,37 @@ body {
   .popup .popup__content .form__button {
     font-size: 1em;
     padding: 0.4em 0.3em;
+  }
+}
+@media screen and (min-width: 375px) {
+  .popup .popup__content h1 {
+    font-size: 1em;
+  }
+  .popup .popup__content h2 {
+    font-size: 0.8em;
+  }
+  .popup .popup__content .popup__form .form__input {
+    padding: 0.3em 0.2em;
+    font-size: 0.8em;
+  }
+  .popup .popup__content .form__button {
+    font-size: 0.9em;
+    padding: 0.3em 0.2em;
+  }
+}
+@media screen and (min-width: 425px) {
+  .popup .popup__content h1 {
+    font-size: 1.1em;
+  }
+  .popup .popup__content h2 {
+    font-size: 0.9em;
+  }
+  .popup .popup__content .popup__form .form__input {
+    padding: 0.3em 0.2em;
+    font-size: 0.9em;
+  }
+  .popup .popup__content .form__button {
+    font-size: 1em;
+    padding: 0.3em 0.2em;
   }
 }/*# sourceMappingURL=Popup.module.css.map */

@@ -34,6 +34,13 @@ function App() {
     var namesToUpperCase = names.toLowerCase().replace(/(^|\s)[a-z\u00C0-\u00FF]/g, l => l.toUpperCase());
   }
 
+  //if the page is being executed on a desktop, show an alert
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      alert("¡Hola! Te recomiendo que ingreses desde un dispositivo móvil para una mejor experiencia. ¡Gracias!")
+    }
+  }, [])
+
   if (!button) {
     return (
       <div className={ss.popup}>
@@ -88,12 +95,12 @@ function App() {
       <div id="inicio" className={ss.main}>
         <Navbar />
         <Banner />
-        <Invitacion names={namesToUpperCase} />
         <Frase />
         <DondeCuando />
         <Itinerario />
         <Carrousel />
-        <Footer names={namesToUpperCase} text={text}/>
+        <Invitacion names={namesToUpperCase} />
+        <Footer names={namesToUpperCase} text={text} />
         <button className="volumeUp volume" id="btnUp" style={{ display: "block" }} onClick={toggleVolume}>
           <FontAwesomeIcon icon={faVolumeHigh} />
         </button>

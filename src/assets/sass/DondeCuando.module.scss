@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import "../sass//colors";
+@import "../sass/colors";
 
 .dondeCuando {
   background-color: $fairyTale;
@@ -32,7 +32,7 @@
     .map {
       position: absolute;
       left: 0;
-      top: 0;
+      top: -150px;
       background-color: #0000008e;
       min-height: 300vh;
       padding: 87em 1em 0 1em;
@@ -142,6 +142,11 @@
         border-radius: 4px;
         font-weight: 400;
         background-color: $fairyTale;
+
+        &:hover {
+          background-color: $uranianBlue;
+          transition: all .2s ease;
+        }
       }
     }
   }
