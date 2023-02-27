@@ -29,10 +29,14 @@
 .dondeCuando .main .map {
   position: absolute;
   left: 0;
-  top: -150px;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.5568627451);
-  min-height: 300vh;
+  min-height: calc(400vh - 600px);
   padding: 87em 1em 0 1em;
+  z-index: 100;
+}
+.dondeCuando .main .map .popup {
+  opacity: 0;
 }
 .dondeCuando .main .map .map__card {
   display: flex;
@@ -127,4 +131,53 @@
 .dondeCuando .main .btns a:hover {
   background-color: #acceed;
   transition: all 0.2s ease;
+}
+
+@media (max-width: 500px) {
+  .dondeCuando .main .map .popup {
+    margin-bottom: 6em;
+  }
+  .dondeCuando .main .map iframe {
+    height: 500px;
+  }
+}
+@media (max-width: 414px) {
+  .dondeCuando .main .map .popup {
+    margin-bottom: 4.5em;
+  }
+  .dondeCuando .main .map iframe {
+    height: 500px;
+  }
+}
+@media (max-width: 393px) {
+  .dondeCuando .main .map .popup {
+    margin-bottom: 3.3em;
+  }
+  .dondeCuando .main .map iframe {
+    height: 500px;
+  }
+}
+@media (max-width: 390px) {
+  .dondeCuando .main .map .popup {
+    margin-bottom: 3em;
+  }
+  .dondeCuando .main .map iframe {
+    height: 500px;
+  }
+}
+@media (max-width: 375px) {
+  .dondeCuando .main .map .popup {
+    margin-bottom: 3.3em;
+  }
+  .dondeCuando .main .map iframe {
+    height: 300px;
+  }
+}
+@media (max-width: 360px) {
+  .dondeCuando .main .map .popup {
+    margin-bottom: 5em;
+  }
+  .dondeCuando .main .map iframe {
+    height: 300px;
+  }
 }/*# sourceMappingURL=DondeCuando.module.css.map */

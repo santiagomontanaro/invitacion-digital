@@ -32,10 +32,15 @@
     .map {
       position: absolute;
       left: 0;
-      top: -150px;
+      top: 0;
       background-color: #0000008e;
-      min-height: 300vh;
+      min-height: calc(400vh - 600px);
       padding: 87em 1em 0 1em;
+      z-index: 100;
+
+      .popup {
+        opacity: 0;
+      }
 
       .map__card {
         display: flex;
@@ -146,6 +151,102 @@
         &:hover {
           background-color: $uranianBlue;
           transition: all .2s ease;
+        }
+      }
+    }
+  }
+}
+
+// query width 375
+@media (max-width: 500px) {
+  .dondeCuando {
+    .main {
+      .map {
+        .popup {
+          margin-bottom: 6em;
+        }
+
+        iframe {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .dondeCuando {
+    .main {
+      .map {
+        .popup {
+          margin-bottom: 4.5em;
+        }
+
+        iframe {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 393px) {
+  .dondeCuando {
+    .main {
+      .map {
+        .popup {
+          margin-bottom: 3.3em;
+        }
+
+        iframe {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 390px) {
+  .dondeCuando {
+    .main {
+      .map {
+        .popup {
+          margin-bottom: 3em;
+        }
+
+        iframe {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .dondeCuando {
+    .main {
+      .map {
+        .popup {
+          margin-bottom: 3.3em;
+        }
+
+        iframe {
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .dondeCuando {
+    .main {
+      .map {
+        .popup {
+          margin-bottom: 5em;
+        }
+
+        iframe {
+          height: 300px;
         }
       }
     }

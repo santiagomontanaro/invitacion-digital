@@ -11,20 +11,19 @@ function DondeCuando() {
 
     if (btn.innerText === 'Ver mapa') {
       map.style.display = 'block'
-      document.body.style.overflow = 'hidden'
     }
 
     closeBtn.addEventListener('click', () => {
       map.style.display = 'none'
-      document.body.style.overflow = 'auto'
     })
   }
 
   return (
     <div className={ss.dondeCuando}>
-      <h3 id='popup'>¿Dónde?¿Cuándo?</h3>
+      <h3>¿Dónde?¿Cuándo?</h3>
       <div className={ss.main}>
         <div className={ss.map} id='map' style={{ display: 'none' }}>
+          <div id='popup' className={ss.popup}>a</div>
           <div className={ss.map__card}>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.489065606953!2d-60.73526098481181!3d-33.01724348090003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7adc561e3bcf1%3A0xec37ff6474a9cd4!2sCAMPO%20DE%20DIOS%20IGLESIA%20EVANGELICA%20PUEBLO%20ELEGIDO!5e0!3m2!1ses-419!2sar!4v1676815213949!5m2!1ses-419!2sar" width="100%" height="400" style={{ border: 0 }} allowFullScreen loading="lazy" title='CAMPO DE DIOS IGLESIA EVANGELICA PUEBLO ELEGIDO'></iframe>
             <div className={ss.map__footer}>
