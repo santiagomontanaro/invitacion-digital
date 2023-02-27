@@ -47,8 +47,8 @@ function App() {
         <div className={ss.popup__content}>
           <h1>¡Bienvenidos a la invitación de mi cumpleaños!</h1>
           <h2>Por favor ingresá tu nombre y apellido para continuar</h2>
-          <form className={ss.popup__form}>
-            <input type="text" placeholder="Nombre y apellido" onChange={handleNames} maxLength="30" minLength="3" className={ss.form__input} />
+          <form className={ss.popup__form} autoFocus>
+            <input type="text" placeholder="Nombre y apellido" onChange={handleNames} maxLength="30" minLength="3" className={ss.form__input} autoFocus />
             {
               // if all validations are correct, the button is enabled
               names.length >= 5 && names.match(/^[a-zA-Z\s\u00C0-\u00FF]*$/) ? <button className={ss.form__button} onClick={handleButton}>Continuar</button> : <button className={ss.form__button} disabled>Continuar</button>
