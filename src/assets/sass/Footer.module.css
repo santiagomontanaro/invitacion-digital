@@ -27,10 +27,15 @@
 .main .footer p {
   line-height: 26px;
 }
+.main .footer .dressCode,
+.main .footer .assist,
 .main .footer .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
   background-color: #FFFFFF;
   padding: 3em 1em;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .main .footer .info h3 {
@@ -41,14 +46,17 @@
   color: #FFAFCC;
   font-style: italic;
 }
-.main .footer .assist {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  background-color: #FFFFFF;
-  padding: 3em 1em;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.main .footer .dressCode {
+  align-items: center;
+  gap: 4em;
+  padding: 2em 0.8em;
+}
+.main .footer .dressCode span {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.main .footer .dressCode img {
+  width: 80px;
 }
 .main .footer .assist span {
   font-weight: 600;
@@ -79,4 +87,10 @@
   position: relative;
   top: 0.1em;
   color: #FFFFFF;
+}
+
+@media (width: 360px) {
+  .main .footer .dressCode {
+    padding: 2em 0.5em;
+  }
 }/*# sourceMappingURL=Footer.module.css.map */

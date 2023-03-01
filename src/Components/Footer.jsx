@@ -2,6 +2,8 @@ import React from 'react'
 import ss from "../assets/sass/Footer.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import dressWoman from "../assets/imgs/dress-woman.webp"
+import dressMan from "../assets/imgs/dress-man.webp"
 
 function Footer({ names, text }) {
   return (
@@ -11,6 +13,13 @@ function Footer({ names, text }) {
         <div className={ss.info}>
           <h3>Con la bendición de Dios y mis padres</h3>
           <p>quienes me acompañarán en este gran día, invito cordialmente a <span className={ss.name}>{names}</span> a que me acompañe en este evento tan especial para mí.</p>
+        </div>
+        <div className={ss.dressCode}>
+          <h3>Dress Code</h3>
+          <img src={dressWoman} alt="dress-code-woman" />
+          <span>Mujeres: Como te sientas más cómoda</span>
+          <img src={dressMan} alt="dress-code-man" />
+          <span>Hombres: Como te sientas más cómodo</span>
         </div>
         <div className={ss.assist}>
           <h3>Confirmar asistencia</h3>
