@@ -12,7 +12,7 @@ function Footer({ names, text }) {
       <div className={ss.footer}>
         <div className={ss.info}>
           <h3>Con la bendición de Dios y mis padres</h3>
-          <p>quienes me acompañarán en este gran día, invito cordialmente a <span className={ss.name}>{names}</span> a que me acompañe en este evento tan especial para mí.</p>
+          <p>quienes estarán conmigo en este gran día, invito cordialmente a <span className={ss.name}>{names}</span> a que me acompañe en este evento tan especial para mí.</p>
         </div>
         <div className={ss.dressCode}>
           <h3>Dress Code</h3>
